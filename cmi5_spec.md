@@ -287,7 +287,8 @@ An Assignable Unit MUST NOT implement any features or functionality (optional or
 
 The LMS MUST conform to all LRS requirements as specified in the xAPI specification (see References).
 
-The LMS MUST include the ability to retrieve and show all statements (including attachments and extensions) to a user (with the understanding of scaling permissions/authorization).
+The LMS MUST have an account which is able to retrieve all Resource data (from the Statement API, etc, including attachments 
+and extensions) about another distinct user across multiple sessions for that user.
 
 The LMS MUST decode the attachment and make it available as a file with the original MIME type.
 
